@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/WM.png" type="image/png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+    <!-- Link file CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <title>Welcome MavesDev</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar Start -->
+      <section class="navbar">
+        <!-- Navbar Clock Start -->
+        <div class="navbar-clock">
+          <p id="days"></p>
+          <p id="hours"></p>
+          <hr />
+          <p id="mins"></p>
+        </div>
+        <!-- Navbar Clock End -->
+
+        <!-- Navbar Day Start -->
+        <div class="navbar-day">
+          <!-- <p>12</p>
+          <hr />
+          <p>24</p> -->
+        </div>
+        <!-- Navbar Day End -->
+      </section>
+      <!-- Navbar End -->
+
+      <!-- Hero Start -->
+      <section class="hero">
+        <div class="hero-up">
+          <div class="hero-title">
+            <h2>Welcome Back</h2>
+            <h4>> Maves_San</h4>
+          </div>
+          <div class="hero-temp">
+            <!-- <h2 id="output"></h2> -->
+            <div class="elfsight-app-c8a9b292-0ad7-429f-82f1-9765918fe5d1"></div>
+          </div>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="hero-search">
+            <form role="search" id="form">
+              <input type="search" id="query" name="q" placeholder="Search something here, im google btw..." aria-label="Search through site content" autocomplete="off" />
+            </form>
+          </div>
+          <div class="shorthand">
+            <ul>
+              <li>
+                <div class="soc">
+                  <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="soc">
+                  <a href="https://www.figma.com"><i class="fab fa-figma"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="soc">
+                  <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="soc">
+                  <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+              </li>
+              <li>
+                <div class="soc">
+                  <a href="https://www.behance.net"><i class="fab fa-behance"></i></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Hero End -->
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
